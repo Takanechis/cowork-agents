@@ -80,6 +80,22 @@ Claude Code のチャットで以下のように呼び出します。
 @web-builder 新しいページ /service を作成して
 ```
 
+### インタビュー企画書
+
+```
+@interview-planner 企画書よろ
+- 企業名: アイザック株式会社
+- 企業URL: https://aisaac.jp/
+- 取材対象者: 代表取締役CEO 田中和希
+```
+
+```
+@interview-planner リサーチよろ
+- 企業名: hacomono
+- 企業URL: https://www.hacomono.jp/
+- 取材対象者: 代表取締役 蓮田健一
+```
+
 ---
 
 ## 4. エージェント一覧
@@ -89,6 +105,7 @@ Claude Code のチャットで以下のように呼び出します。
 | @manuscript-writer | agents/manuscript-writer.md | 音声データから原稿を自動生成 |
 | @contract-miner | agents/contract-miner.md | Hubbleから契約書を解析しNotionにDB化 |
 | @web-builder | agents/web-builder.md | corporate.v4の保守運用・新規ページ作成 |
+| @interview-planner | agents/interview-planner.md | 企業リサーチから取材企画書を自動生成 |
 
 ---
 
@@ -103,4 +120,4 @@ GitHub 上で agents/*.md を編集した後:
 
 ## 6. ベースシステム
 
-[everything-claude-code](https://github.com/affaan-m/everything-claude-code) をベースに構築
+[everything-claude-code](https://github.com/nichochar/everything-claude-code) をベースに構築
