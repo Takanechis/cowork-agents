@@ -1,4 +1,11 @@
 ---
+name: regulation-writing-review
+description: |
+  アトミックソフトウェアの表記データベース。固有名詞・表記・言い回しを統一するための参照ファイル。
+  すべてのエージェントがこのファイルを参照し、表記ブレを防ぐ。
+model: opus
+---
+
 
 # アトミックソフトウェア 表記データベース（regulation-md-writing）
 
