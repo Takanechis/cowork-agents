@@ -20,14 +20,18 @@ agents:
 
 ## 会議情報（2026-03-30）
 
-| 項目 | 内容 |
-|------|------|
-| 日付 | 2026-03-30 |
-| 参加者（アトミックソフトウェア） | 木村絢香 `ayaka.kimura@atomic-software.co.jp` |
-| | 鈴木佳穂 `kaho.suzuki@atomic-software.co.jp` |
-| | 丸山朋子 `tomoko.maruyama@atomic-software.co.jp` |
-| 参加者（メディカルフォース） | 宮田雅恵 `masae.miyata@medical-force.com` |
-| | 高田玲奈 `rena.takata@medical-force.com` |
+**日付**: 2026-03-30
+
+### メンバー
+
+| 役割 | 氏名 | メールアドレス |
+|------|------|----------------|
+| デザイナー | 木村絢香 | `ayaka.kimura@atomic-software.co.jp` |
+| デザイナー | 高田玲奈 | `rena.takata@medical-force.com` |
+| デザイナー | 丸山朋子 | `tomoko.maruyama@atomic-software.co.jp` |
+| ディレクター・広報・コーディング | 高根千聖 | — |
+| 新卒採用 | 鈴木佳穂 | `kaho.suzuki@atomic-software.co.jp` |
+| 新卒採用 | 宮田雅恵 | `masae.miyata@medical-force.com` |
 
 ---
 
