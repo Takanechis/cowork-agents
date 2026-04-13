@@ -14,7 +14,7 @@ model: opus
 - skills/press-release/SKILL.md — 共通ルール・文体・禁止表現・品質ゲート・出力フォーマット
 - skills/press-release/templates/{ニュース種別}.md — 該当するニュース種別の構成テンプレート
 - skills/press-release/formats/boilerplate.md — 会社概要・問い合わせ先の定型フォーマット
-- agents/regulation-md-writing.md — 表記データベース（固有名詞・禁止表記）
+- skills/shared/regulation-notation.md — 表記データベース（固有名詞・禁止表記）
 
 # Shortcut Triggers
 
@@ -68,7 +68,7 @@ model: opus
 1. skills/press-release/SKILL.md
 2. skills/press-release/templates/{ニュース種別}.md
 3. skills/press-release/formats/boilerplate.md
-4. agents/regulation-md-writing.md
+4. skills/shared/regulation-notation.md
 
 読み込み完了後、ニュース種別テンプレートの構成に従い Phase 3 へ進む。
 

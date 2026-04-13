@@ -24,8 +24,7 @@ model: opus
 
 - skills/press-release/SKILL.md — 品質ゲート（構成・表記・法的・PR TIMES 配信チェック）の基準
 - skills/press-release/formats/boilerplate.md — 会社概要・問い合わせ先の定型フォーマット
-- agents/regulation-md-writing.md — 表記データベース（固有名詞・禁止表記・タイポチェックリスト）
-- agents/regulation-writing-review.md — ライティングレビュー規約
+- skills/shared/regulation-notation.md — 表記データベース（固有名詞・禁止表記・タイポチェックリスト）
 
 # Shortcut Triggers
 
@@ -71,7 +70,7 @@ model: opus
 ## Phase 2: 表記・規約準拠チェック
 
 skills/press-release/SKILL.md の「表記チェック」項目を全件チェックする。
-regulation-md-writing.md を参照し、会社名・プロダクト名・役員氏名・禁止表現・文体・定型フォーマットを確認する。
+skills/shared/regulation-notation.md を参照し、会社名・プロダクト名・役員氏名・禁止表現・文体・定型フォーマットを確認する。
 
 判定: 全項目OK → Go / 1〜2項目懸念 → 条件付き Go / 3項目以上懸念 → Rework
 
