@@ -6,6 +6,9 @@
 
 ### Writing（ライティング系）
 
+@manuscript-pipeline (agents/writing/manuscript-pipeline.md)
+manuscript-writer と manuscript-reviewer を自動連携するオーケストレーター。素材の入力から Go 判定済み原稿の完成まで一気通貫で実行する（Generator-Verifier パターン、最大3回リトライ）。
+
 @manuscript-writer (agents/writing/manuscript-writer.md)
 原稿ライティング専門。音声データから原稿を自動生成する。
 カテゴリ: インタビュー / メール（社外） / チャットメッセージ
