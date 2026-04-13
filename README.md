@@ -33,11 +33,17 @@ chmod +x ~/cowork-agents/setup.sh
 
 ---
 
-## 3. 呼び出し方
+## 3. エージェントの呼び出し方
 
-パイプラインがあるエージェントは、**1回の呼び出しで生成→レビュー→修正まで自動完結**します。
+パイプライン（`-pipeline`）があるエージェントは、**1回の呼び出しで生成→レビュー→修正まで自動完結**します。
 
-### インタビュー企画書（外部取材）
+---
+
+### Planning — 企画系
+
+#### @interview-pipeline（外部取材 一気通貫）
+
+Webリサーチ → 企画書生成 → レビュー → Go判定まで自動で実行します。
 
 ```
 @interview-pipeline 企画書よろ
@@ -46,65 +52,148 @@ chmod +x ~/cowork-agents/setup.sh
 - 取材対象者: 代表取締役CEO 田中和希
 ```
 
-リサーチだけしたい場合:
+#### @outer-interview-planner（外部取材 個別実行）
+
+外部企業取材向け。Webリサーチから企画書を生成します。
 
 ```
-@outer-interview-planner リサーチよろ
+@outer-interview-planner 企画書よろ
 - 企業名: アイザック株式会社
 - 企業URL: https://aisaac.jp/
 - 取材対象者: 代表取締役CEO 田中和希
+
+@outer-interview-planner リサーチよろ
+- 企業名: hacomono
+- 企業URL: https://www.hacomono.jp/
+- 取材対象者: 代表取締役 蓮田健一
 ```
 
-### インタビュー企画書（社内インタビュー）
+#### @inner-interview-planner（社内インタビュー）
+
+社内メンバー・部署向け。ヒアリングメモからオウンドメディア（note）用の企画書を生成します。
 
 ```
 @inner-interview-planner 部署よろ
 ```
 
-テンプレートが出力されるので、埋めて送り返す。
+テンプレートが出力されるので、埋めて送り返してください。
 
-### 原稿ライティング
+#### @interview-reviewer（企画書レビュー単体）
+
+```
+@interview-reviewer レビューよろ
+（outer-interview-planner または inner-interview-planner が出力した企画書を貼り付け）
+```
+
+---
+
+### Writing — ライティング系
+
+#### @manuscript-pipeline（原稿 一気通貫）
+
+原稿生成 → レビュー → Go判定まで自動で実行します。完成原稿はGoogle Docsに出力されます。
 
 ```
 @manuscript-pipeline インタビューよろ
 （音声文字起こしテキストを貼り付け）
+
+@manuscript-pipeline メールよろ
 ```
 
-個別に呼び出す場合:
+#### @manuscript-writer（原稿生成 個別実行）
 
 ```
 @manuscript-writer インタビューよろ
 （音声文字起こしテキストを貼り付け）
 
+@manuscript-writer メールよろ
+
+@manuscript-writer チャットよろ
+```
+
+#### @manuscript-reviewer（原稿レビュー単体）
+
+```
 @manuscript-reviewer レビューよろ
+（manuscript-writer が出力した原稿を貼り付け）
+
+@manuscript-reviewer 表記チェック
 （原稿テキストを貼り付け）
 ```
 
-### プレスリリース
+#### @press-release-writer（プレスリリース生成）
 
 ```
 @press-release-writer 企画よろ
 ```
 
-テンプレートが出力されるので、埋めて送り返す。
+テンプレートが出力されるので、埋めて送り返してください。
 
-レビューのみしたい場合:
+```
+@press-release-writer PRよろ
+【ニュース種別】新機能リリース
+【発表日】2026年4月1日
+【ニュースのキーポイント】
+  - medicalforce に新機能〇〇を追加
+  - 導入院数700院以上の知見をもとに開発
+【背景・課題】〇〇の課題があった
+【ターゲット読者】業界メディア / 潜在顧客
+```
+
+#### @press-release-reviewer（プレスリリースレビュー単体）
 
 ```
 @press-release-reviewer レビューよろ
+（press-release-writer が出力した原稿を貼り付け）
+
+@press-release-reviewer 表記チェック
 （原稿テキストを貼り付け）
 ```
 
-### 契約データマイニング
+---
+
+### Ops — 業務オペレーション系
+
+#### @contract-miner（契約データマイニング）
+
+Hubbleから契約書を解析し、NotionにDB化します。
 
 ```
 @contract-miner Hubbleの契約書をNotionにDB化して
+
+@contract-miner 最新の契約書を確認してNotionに登録して
 ```
 
-### Webサイト構築
+#### @web-builder（Webサイト構築）
+
+corporate.v4（WordPress）の保守運用・新規ページ作成を担当します。
 
 ```
 @web-builder /recruit ページにインターンセクションを追加して
+
+@web-builder トップページのファーストビューを修正して
+```
+
+---
+
+### Internal — 社内向け
+
+#### @communication-branding（デザインシステム）
+
+ブランドガイドライン・デザインシステムの作成と保守運用を担当します。
+
+```
+@communication-branding ブランドガイドラインを更新して
+
+@communication-branding 新しいコンポーネントのデザインルールを追加して
+```
+
+#### @new-graduate（新卒・新入社員サポート）
+
+```
+@new-graduate 社内ツールの使い方を教えて
+
+@new-graduate オンボーディングのチェックリストを出して
 ```
 
 ---
@@ -156,11 +245,11 @@ cowork-agents/
 │   ├── ops/          # 業務オペレーション系
 │   └── internal/     # 社内向け
 ├── skills/
-│   ├── shared/           # 全エージェント共通（表記DB・Markdownルール）
-│   ├── interview/        # インタビュー企画スキル
+│   ├── shared/              # 全エージェント共通（表記DB・Markdownルール）
+│   ├── interview/           # インタビュー企画スキル
 │   ├── manuscript-writing/  # 原稿ライティングスキル
-│   ├── press-release/    # プレスリリーススキル
-│   └── owned-media-planning/  # オウンドメディア企画スキル
+│   ├── press-release/       # プレスリリーススキル
+│   └── owned-media-planning/ # オウンドメディア企画スキル
 ├── AGENTS.md
 ├── CLAUDE.md
 ├── README.md
