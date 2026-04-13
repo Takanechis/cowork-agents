@@ -6,21 +6,19 @@
 
 ## 1. 初回セットアップ
 
-ターミナルで以下の3行を実行してください。
-
 ```bash
 git clone https://github.com/Takanechis/cowork-agents.git ~/cowork-agents
 chmod +x ~/cowork-agents/setup.sh
 ~/cowork-agents/setup.sh
 ```
 
-これで ~/.claude/agents/ にシンボリックリンクが作成され、Claude Code からエージェントを呼び出せるようになります。
+これで `~/.claude/agents/` にシンボリックリンクが作成され、Claude Code からエージェントを呼び出せるようになります。
 
 ---
 
 ## 2. 自動同期の設定（推奨）
 
-~/.claude/settings.json に以下を追加すると、Claude Code 起動時に自動で最新版に同期されます。
+`~/.claude/settings.json` に以下を追加すると、Claude Code 起動時に自動で最新版に同期されます。
 
 ```json
 {
@@ -35,69 +33,66 @@ chmod +x ~/cowork-agents/setup.sh
 
 ---
 
-## 3. エージェントの呼び出し方
+## 3. 呼び出し方
+
+パイプラインがあるエージェントは、**1回の呼び出しで生成→レビュー→修正まで自動完結**します。
+
+### インタビュー企画書（外部取材）
+
+```
+@interview-pipeline 企画書よろ
+- 企業名: アイザック株式会社
+- 企業URL: https://aisaac.jp/
+- 取材対象者: 代表取締役CEO 田中和希
+```
+
+リサーチだけしたい場合:
+
+```
+@outer-interview-planner リサーチよろ
+- 企業名: アイザック株式会社
+- 企業URL: https://aisaac.jp/
+- 取材対象者: 代表取締役CEO 田中和希
+```
+
+### インタビュー企画書（社内インタビュー）
+
+```
+@inner-interview-planner 部署よろ
+```
+
+テンプレートが出力されるので、埋めて送り返す。
 
 ### 原稿ライティング
 
 ```
-@manuscript-writer 以下の音声文字起こしからインタビュー記事を作成して
-（ここに文字起こしテキストを貼り付け）
-
-@manuscript-writer メールよろ
+@manuscript-pipeline インタビューよろ
+（音声文字起こしテキストを貼り付け）
 ```
 
-### 原稿レビュー
+個別に呼び出す場合:
 
 ```
+@manuscript-writer インタビューよろ
+（音声文字起こしテキストを貼り付け）
+
 @manuscript-reviewer レビューよろ
-（manuscript-writer が出力した原稿をここに貼り付け）
-
-@manuscript-reviewer 表記チェック
-（原稿テキスト）
+（原稿テキストを貼り付け）
 ```
 
-### インタビュー企画書
-
-```
-@interview-writer 企画書よろ
-- 企業名: アイザック株式会社
-- 企業URL: https://aisaac.jp/
-- 取材対象者: 代表取締役CEO 田中和希
-
-@interview-writer リサーチよろ
-- 企業名: hacomono
-- 企業URL: https://www.hacomono.jp/
-- 取材対象者: 代表取締役 蓮田健一
-```
-
-### インタビュー企画書レビュー
-
-```
-@interview-reviewer レビューよろ
-（interview-writer が出力した企画書をここに貼り付け）
-```
-
-### プレスリリース 企画→ライティング
+### プレスリリース
 
 ```
 @press-release-writer 企画よろ
-
-@press-release-writer PRよろ
-【ニュース種別】新機能リリース
-【発表日】2026年4月1日
-【ニュースのキーポイント】
-  - medicalforce に新機能〇〇を追加
-  - 導入院数700院以上の知見をもとに開発
-  - 提供開始: 2026年4月1日（既存ユーザは無償提供）
-【背景・課題】〇〇の課題があった
-【ターゲット読者】業界メディア / 潜在顧客
 ```
 
-### プレスリリース 原稿レビュー
+テンプレートが出力されるので、埋めて送り返す。
+
+レビューのみしたい場合:
 
 ```
 @press-release-reviewer レビューよろ
-（press-release-writer が出力した原稿をここに貼り付け）
+（原稿テキストを貼り付け）
 ```
 
 ### 契約データマイニング
@@ -116,37 +111,38 @@ chmod +x ~/cowork-agents/setup.sh
 
 ## 4. エージェント一覧
 
+### Planning（企画系）
+
+| エージェント | 用途 |
+|---|---|
+| @interview-pipeline | 外部取材企画書を1コマンドで生成〜Go判定まで自動完結 |
+| @outer-interview-planner | 外部企業取材の企画書を生成（VerticalSaaS Mag.向け、Webリサーチあり） |
+| @inner-interview-planner | 社内インタビューの企画書を生成（オウンドメディアnote向け、ヒアリングメモから） |
+| @interview-reviewer | インタビュー企画書のレビュー・Go判定 |
+
 ### Writing（ライティング系）
 
-| エージェント | ファイル | 用途 |
-|---|---|---|
-| @manuscript-writer | agents/writing/manuscript-writer.md | 音声データから原稿を自動生成 |
-| @manuscript-reviewer | agents/writing/manuscript-reviewer.md | 原稿の表記・トンマナ・構成をレビュー |
-| @interview-pipeline | agents/writing/interview-pipeline.md | interview-writer と interview-reviewer を自動連携。Go判定済み企画書を一気通貫で生成 |
-| @interview-writer | agents/writing/interview-writer.md | 企業リサーチから取材企画書を自動生成 |
-| @interview-reviewer | agents/writing/interview-reviewer.md | インタビュー企画書のレビュー・Go判定 |
-| @press-release-writer | agents/writing/press-release-writer.md | プレスリリースの企画→完成原稿を一気通貫で生成 |
-| @press-release-reviewer | agents/writing/press-release-reviewer.md | プレスリリース原稿のレビュー・Go判定 |
-
-### Planning（企画・メディア系）
-
-| エージェント | ファイル | 用途 |
-|---|---|---|
-| @owned-media-planner | agents/planning/owned-media-planner.md | オウンドメディア向けインタビュー企画書を生成 |
+| エージェント | 用途 |
+|---|---|
+| @manuscript-pipeline | 原稿を1コマンドで生成〜Go判定まで自動完結 |
+| @manuscript-writer | 音声データから原稿を生成（インタビュー / メール / チャット） |
+| @manuscript-reviewer | 原稿の表記・トンマナ・構成をレビュー |
+| @press-release-writer | プレスリリースの企画→完成原稿を生成 |
+| @press-release-reviewer | プレスリリース原稿のレビュー・Go判定 |
 
 ### Ops（業務オペレーション系）
 
-| エージェント | ファイル | 用途 |
-|---|---|---|
-| @contract-miner | agents/ops/contract-miner.md | Hubbleから契約書を解析しNotionにDB化 |
-| @web-builder | agents/ops/web-builder.md | corporate.v4の保守運用・新規ページ作成 |
+| エージェント | 用途 |
+|---|---|
+| @contract-miner | Hubbleから契約書を解析しNotionにDB化 |
+| @web-builder | corporate.v4の保守運用・新規ページ作成 |
 
 ### Internal（社内向け）
 
-| エージェント | ファイル | 用途 |
-|---|---|---|
-| @communication-branding | agents/internal/communication-branding.md | デザインシステムの作成・保守運用 |
-| @new-graduate | agents/internal/new-graduate.md | 新卒・新入社員向けサポート |
+| エージェント | 用途 |
+|---|---|
+| @communication-branding | デザインシステムの作成・保守運用 |
+| @new-graduate | 新卒・新入社員向けサポート |
 
 ---
 
@@ -155,13 +151,13 @@ chmod +x ~/cowork-agents/setup.sh
 ```
 cowork-agents/
 ├── agents/
-│   ├── writing/          # ライティング系エージェント
-│   ├── planning/         # 企画・メディア系エージェント
-│   ├── ops/              # 業務オペレーション系エージェント
-│   └── internal/         # 社内向けエージェント
+│   ├── planning/     # 企画系（interview系）
+│   ├── writing/      # ライティング系（manuscript・press-release系）
+│   ├── ops/          # 業務オペレーション系
+│   └── internal/     # 社内向け
 ├── skills/
-│   ├── shared/           # 全エージェント共通スキル（表記DB・Markdownルール）
-│   ├── interview/        # インタビュー企画・原稿スキル
+│   ├── shared/           # 全エージェント共通（表記DB・Markdownルール）
+│   ├── interview/        # インタビュー企画スキル
 │   ├── manuscript-writing/  # 原稿ライティングスキル
 │   ├── press-release/    # プレスリリーススキル
 │   └── owned-media-planning/  # オウンドメディア企画スキル
@@ -172,8 +168,8 @@ cowork-agents/
 ```
 
 設計方針:
-- agents/ = 「誰が・何をするか」（Role・Workflow・Input/Output Rules）
-- skills/ = 「何を基準に・何を参照して動くか」（品質基準・表記DB・テンプレート）
+- agents/ = 「誰が・何をするか」（Role・Workflow）
+- skills/ = 「何を基準に動くか」（品質基準・表記DB・テンプレート）
 
 ---
 
