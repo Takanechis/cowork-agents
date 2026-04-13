@@ -13,6 +13,9 @@
 @manuscript-reviewer (agents/writing/manuscript-reviewer.md)
 原稿レビュー専門。manuscript-writer が生成した原稿の表記・トンマナ・構成を多角的にチェックし、Go / Rework 判定を行う。
 
+@interview-pipeline (agents/writing/interview-pipeline.md)
+interview-writer と interview-reviewer を自動連携するオーケストレーター。企業情報の入力から Go 判定済み企画書の完成まで一気通貫で実行する（Generator-Verifier パターン、最大3回リトライ）。
+
 @interview-writer (agents/writing/interview-writer.md)
 企業情報を入力すると、Webリサーチ → 深堀りポイント洗い出し → インタビュー企画書を自動生成する。
 

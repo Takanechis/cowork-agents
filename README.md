@@ -122,6 +122,7 @@ chmod +x ~/cowork-agents/setup.sh
 |---|---|---|
 | @manuscript-writer | agents/writing/manuscript-writer.md | 音声データから原稿を自動生成 |
 | @manuscript-reviewer | agents/writing/manuscript-reviewer.md | 原稿の表記・トンマナ・構成をレビュー |
+| @interview-pipeline | agents/writing/interview-pipeline.md | interview-writer と interview-reviewer を自動連携。Go判定済み企画書を一気通貫で生成 |
 | @interview-writer | agents/writing/interview-writer.md | 企業リサーチから取材企画書を自動生成 |
 | @interview-reviewer | agents/writing/interview-reviewer.md | インタビュー企画書のレビュー・Go判定 |
 | @press-release-writer | agents/writing/press-release-writer.md | プレスリリースの企画→完成原稿を一気通貫で生成 |
