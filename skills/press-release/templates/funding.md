@@ -1,3 +1,13 @@
+---
+skill: press-release/templates/funding
+version: "1.0"
+description: "資金調達ニュース種別のプレスリリース構成テンプレート。"
+used_by:
+  - press-release-writer
+scope: template
+updated: "2026-04"
+---
+
 # 資金調達 構成テンプレート
 
 ニュース種別: 資金調達

@@ -1,3 +1,16 @@
+---
+skill: interview
+version: "1.0"
+description: "インタビュー企画・原稿生成に関わる共通ルール・品質基準。inner-interview-planner・outer-interview-planner・interview-reviewer エージェントが参照する。"
+used_by:
+  - inner-interview-planner
+  - outer-interview-planner
+  - interview-reviewer
+  - manuscript-writer
+scope: global
+updated: "2026-04"
+---
+
 # skills/interview/SKILL.md — インタビュー企画・原稿共通スキル
 
 このファイルは、インタビュー企画（@interview-writer）およびレビュー（@interview-reviewer）エージェントが参照する共通ルール・品質基準を定める。

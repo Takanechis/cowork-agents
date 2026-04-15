@@ -1,3 +1,14 @@
+---
+skill: owned-media-planning/department-interview
+version: "1.0"
+description: "部署の業務インタビュー企画書スキル。owned-media-planning/SKILL.md の共通ルールと併用する。"
+used_by:
+  - inner-interview-planner
+scope: category
+status: ready
+updated: "2026-04"
+---
+
 # 部署の業務インタビュー 企画書スキル
 
 企画種別: 部署の業務インタビュー

@@ -1,3 +1,13 @@
+---
+skill: press-release/templates/award
+version: "1.0"
+description: "受賞・認定ニュース種別のプレスリリース構成テンプレート。"
+used_by:
+  - press-release-writer
+scope: template
+updated: "2026-04"
+---
+
 # 受賞・認定 構成テンプレート
 
 ニュース種別: 受賞・認定

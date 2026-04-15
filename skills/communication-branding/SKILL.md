@@ -1,3 +1,13 @@
+---
+skill: communication-branding
+version: "1.0"
+description: "アトミックソフトウェアのデザインシステム構築・保守運用スキル。SmartHR Design Systemをベンチマークとし、ブランド一貫性・アクセシビリティ・スケーラビリティを実現する。"
+used_by:
+  - communication-branding
+scope: global
+updated: "2026-04"
+---
+
 # Communication & Branding スキル定義
 
 > ベンチマーク: SmartHR Design System（https://smarthr.design/）

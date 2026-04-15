@@ -1,3 +1,13 @@
+---
+skill: press-release/boilerplate
+version: "1.0"
+description: "プレスリリース末尾に配置する定型フォーマット。住所・電話番号・担当者変更はこのファイルのみを編集する。"
+used_by:
+  - press-release-writer
+scope: format
+updated: "2026-04"
+---
+
 # プレスリリース定型フォーマット
 
 このファイルは press-release-writer が原稿末尾に配置する定型フォーマットを管理する。

@@ -1,3 +1,14 @@
+---
+skill: manuscript-writing/email
+version: "1.0"
+description: "メール（社外）カテゴリのライティングルール。高根千聖の送信済みメールを学習元とし、トーン・構成・表現パターンを定義する。"
+used_by:
+  - manuscript-writer
+scope: category
+status: ready
+updated: "2026-04"
+---
+
 # メール（社外）カテゴリルール
 
 > 学習元: 高根千聖の送信済みメール（セキュリティ産業新聞・東京商工リサーチ・警備保障タイムズ・警備保障新聞新社 等）

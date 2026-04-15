@@ -1,3 +1,14 @@
+---
+skill: manuscript-writing/chat-message
+version: "1.0"
+description: "チャットメッセージ（Slack・Teams等）カテゴリのライティングルール。manuscript-writing/SKILL.md の共通ルールと併用する。"
+used_by:
+  - manuscript-writer
+scope: category
+status: placeholder
+updated: "2026-04"
+---
+
 # チャットメッセージカテゴリルール
 
 Slack・Teams等のビジネスチャットでのメッセージ作成ルール。
