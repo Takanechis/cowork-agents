@@ -1,3 +1,14 @@
+---
+skill: press-release
+version: "1.0"
+description: "プレスリリース作成・レビューの共通スキル。ニュース種別ごとの構成テンプレートは templates/、定型フォーマットは formats/boilerplate.md を参照する。"
+used_by:
+  - press-release-writer
+  - press-release-reviewer
+scope: global
+updated: "2026-04"
+---
+
 # プレスリリース共通スキル
 
 このファイルは press-release-writer と press-release-reviewer の両エージェントが参照する共通ルールを定義する。

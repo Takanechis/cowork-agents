@@ -1,3 +1,13 @@
+---
+skill: shared/regulation-notation
+version: "1.0"
+description: "cowork-agents リポジトリ全体に適用する表記・Markdownライティングレギュレーション。固有名詞・禁止表記の参照データベースを含む。"
+used_by:
+  - all
+scope: global
+updated: "2026-04"
+---
+
 # regulation-notation.md — 表記・Markdown ライティングレギュレーション
 
 このファイルは、cowork-agents リポジトリ内の .md ファイルを記述する際に守るべきルールと、

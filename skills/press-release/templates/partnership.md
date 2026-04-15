@@ -1,3 +1,13 @@
+---
+skill: press-release/templates/partnership
+version: "1.0"
+description: "提携・協業ニュース種別のプレスリリース構成テンプレート。"
+used_by:
+  - press-release-writer
+scope: template
+updated: "2026-04"
+---
+
 # 提携・協業 構成テンプレート
 
 ニュース種別: 提携・協業

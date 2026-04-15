@@ -1,3 +1,14 @@
+---
+skill: owned-media-planning
+version: "1.0"
+description: "オウンドメディア企画書生成の共通スキル。企画種別ごとの詳細ルールは categories/ の各ファイルを参照する。"
+used_by:
+  - inner-interview-planner
+  - outer-interview-planner
+scope: global
+updated: "2026-04"
+---
+
 # オウンドメディア企画書 共通スキル
 
 このファイルは owned-media-planner エージェントが参照する共通ルールを定義する。

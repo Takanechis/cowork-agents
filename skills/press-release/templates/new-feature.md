@@ -1,3 +1,13 @@
+---
+skill: press-release/templates/new-feature
+version: "1.0"
+description: "新機能リリース・新サービスニュース種別のプレスリリース構成テンプレート。"
+used_by:
+  - press-release-writer
+scope: template
+updated: "2026-04"
+---
+
 # 新機能リリース / 新サービス 構成テンプレート
 
 ニュース種別: 新機能リリース / 新サービス

@@ -1,3 +1,14 @@
+---
+skill: manuscript-writing/interview
+version: "1.0"
+description: "インタビュー記事（note掲載）カテゴリのライティングルール。学習記事から抽出したトーン・構成・語彙パターンを定義する。"
+used_by:
+  - manuscript-writer
+scope: category
+status: ready
+updated: "2026-04"
+---
+
 # インタビュー記事カテゴリルール
 
 アトミックソフトウェア公式note向けインタビュー記事のトーン&マナー・構成・語彙ルール。
