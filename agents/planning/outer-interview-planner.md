@@ -19,7 +19,6 @@ model: opus
 作業開始前に必ず以下のスキルファイルを読み込んでください。
 
 - skills/interview/SKILL.md — 品質基準・企画書フォーマット・禁止表現・品質ゲート
-- skills/shared/regulation-notation.md — 表記データベース（固有名詞・禁止表記）
 
 ---
 
