@@ -6,30 +6,28 @@
 
 ## 1. 初回セットアップ
 
+ターミナルで1行実行するだけです。
+
 ```bash
-git clone https://github.com/Takanechis/cowork-agents.git ~/cowork-agents
-chmod +x ~/cowork-agents/setup.sh
-~/cowork-agents/setup.sh
+curl -sSf https://raw.githubusercontent.com/Takanechis/cowork-agents/main/setup.sh | bash
 ```
 
-これで `~/.claude/agents/` にシンボリックリンクが作成され、Claude Code からエージェントを呼び出せるようになります。
+自動でやること:
+
+- リポジトリを `~/cowork-agents` にクローン
+- `~/.claude/agents/` にエージェントのシンボリックリンクを作成
+- `~/.claude/CLAUDE.md` に編集部グローバル設定を配置
+- Claude Code 起動時に自動 pull するフックを `~/.claude/settings.json` に追加
+
+完了後、Claude Code を再起動してください。
+
+**このリポジトリを Claude Code で開くと、次回以降は自動でセットアップが走ります。**
 
 ---
 
-## 2. 自動同期の設定（推奨）
+## 2. 自動同期について
 
-`~/.claude/settings.json` に以下を追加すると、Claude Code 起動時に自動で最新版に同期されます。
-
-```json
-{
-  "hooks": {
-    "SessionStart": [{
-      "type": "command",
-      "command": "cd ~/cowork-agents && git pull --quiet 2>/dev/null || true"
-    }]
-  }
-}
-```
+セットアップ完了後は、Claude Code を起動するたびに `git pull` が走り、常に最新のエージェントが使えます。手動での再実行は不要です。
 
 ---
 
@@ -272,6 +270,10 @@ cowork-agents/
 │   ├── manuscript-writing/     # 原稿ライティングスキル
 │   ├── press-release/          # プレスリリーススキル
 │   └── owned-media-planning/   # オウンドメディア企画スキル
+├── templates/
+│   └── global-claude.md        # ~/.claude/CLAUDE.md のテンプレート
+├── .claude/
+│   └── settings.json           # プロジェクト起動時の自動セットアップフック
 ├── AGENTS.md
 ├── CLAUDE.md
 ├── README.md
