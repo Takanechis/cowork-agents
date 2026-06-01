@@ -70,6 +70,15 @@ updated: 2026-05
 | シジュウカラ（最終レビュー） | skills/writing/press-release.md, skills/proofreading/press-release.md |
 | 全員共通 | skills/shared/regulation-notation.md |
 
+### case-study-interview（導入事例 インタビュー記事）
+
+| 担当エージェント | 読み込むファイル |
+|---|---|
+| ハシボソカラス（ライティング） | skills/writing/case-study-interview.md |
+| オオタカ（校正） | skills/proofreading/case-study-interview.md |
+| シジュウカラ（最終レビュー） | skills/writing/case-study-interview.md, skills/proofreading/case-study-interview.md |
+| 全員共通 | skills/shared/regulation-notation.md |
+
 ---
 
 ## 種別追加時の手順
