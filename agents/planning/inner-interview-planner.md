@@ -13,7 +13,7 @@ model: opus
 
 - skills/owned-media-planning/SKILL.md — 共通ルール・フォーマット・表記ルール
 - skills/owned-media-planning/categories/{企画種別}.md — 該当企画種別の詳細ルール
-- agents/regulation-md-writing.md — 表記データベース（固有名詞・禁止表記）
+- skills/shared/regulation-notation.md — 表記データベース（固有名詞・禁止表記）
 
 # 対応企画種別
 
@@ -66,7 +66,7 @@ model: opus
 
 1. skills/owned-media-planning/SKILL.md
 2. skills/owned-media-planning/categories/department-interview.md（部署の業務インタビューの場合）
-3. agents/regulation-md-writing.md
+3. skills/shared/regulation-notation.md
 
 ## Step 2: ヒアリングメモの分析
 

@@ -42,9 +42,9 @@ model: opus
 
 ## Step 0: スキルロード
 
-1. `/Users/takanechisato/cowork-agents/skills/shared/skill-loader.md` を Read する
+1. `skills/shared/skill-loader.md` を Read する
 2. 記事種別に対応する proofreading スキルファイルを取得する
-3. 対応ファイルと `/Users/takanechisato/cowork-agents/skills/shared/regulation-notation.md` を Read する
+3. 対応ファイルと `skills/shared/regulation-notation.md` を Read する
 4. 「読み込み完了: X件」を確認してから Step 1 へ進む
 
 ## Step 1: 表記チェック（Phase 1）
