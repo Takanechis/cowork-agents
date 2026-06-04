@@ -70,6 +70,15 @@ updated: 2026-05
 | シジュウカラ（最終レビュー） | skills/writing/press-release.md, skills/proofreading/press-release.md |
 | 全員共通 | skills/shared/regulation-notation.md |
 
+### owned-media-essay（オウンドメディア エッセイ記事）
+
+| 担当エージェント | 読み込むファイル |
+|---|---|
+| ハシボソカラス（ライティング担当） | skills/writing/owned-media-essay.md |
+| オオタカ（校正担当） | skills/proofreading/owned-media-essay.md |
+| シジュウカラ（最終レビュー担当） | skills/writing/owned-media-essay.md |
+| 全員共通 | skills/shared/regulation-notation.md |
+
 ### case-study-interview（導入事例 インタビュー記事）
 
 | 担当エージェント | 読み込むファイル |
