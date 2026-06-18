@@ -48,7 +48,7 @@ model: opus
 
 1. `skills/shared/skill-loader.md` を Read する
 2. 記事種別に対応するファイルリストを取得する
-3. リスト全件を順番に Read する
+3. リスト全件と `skills/writing/japanese-style.md`（文体ルール）を順番に Read する
 4. "読み込み完了: X件" を確認してから次のステップへ進む
 
 ## Phase 1: 最終チェック

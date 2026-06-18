@@ -65,7 +65,7 @@ model: opus
 
 1. `skills/shared/skill-loader.md` を Read する
 2. 記事種別に対応する planning スキルファイルを取得する
-3. 対応ファイルと `skills/shared/regulation-notation.md` を Read する
+3. 対応ファイルと `skills/shared/regulation-notation.md`、`skills/writing/japanese-style.md`（文体ルール）を Read する
 4. 「読み込み完了: X件」を確認してから Step 1 へ進む
 
 ## Step 1: 素材の把握
