@@ -2,8 +2,12 @@
   "hooks": {
     "SessionStart": [
       {
-        "type": "command",
-        "command": "bash \"$(git rev-parse --show-toplevel 2>/dev/null || pwd)/setup.sh\" 2>/dev/null || true"
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"$(git rev-parse --show-toplevel 2>/dev/null || pwd)/setup.sh\" 2>/dev/null || true"
+          }
+        ]
       }
     ]
   }
