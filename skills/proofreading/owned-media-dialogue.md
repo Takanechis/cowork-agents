@@ -13,6 +13,7 @@ used_by:
     ## Overview
 
     参照ライティングスキル: skills/writing/owned-media-dialogue.md
+    参照共通校正スキル: skills/proofreading/_common.md（比喩・強調語の必須チェックリストと全文1パス点検。必ず併せて実施する）
     目的: 投稿前の最終品質確認。表記・構成・内容を多角的にチェックする
 
     ---
