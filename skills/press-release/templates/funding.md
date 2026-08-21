@@ -11,7 +11,7 @@ updated: "2026-04"
 # 資金調達 構成テンプレート
 
 ニュース種別: 資金調達
-参照元: skills/press-release/SKILL.md
+参照元: press-release/SKILL.md
 
 ## セクション構成（この順序で生成すること）
 
@@ -22,8 +22,8 @@ updated: "2026-04"
 5. 資金使途
 6. 代表者コメント
 7. 投資家コメント（あれば）
-8. 会社概要（formats/boilerplate.md を使用）
-9. 問い合わせ先（formats/boilerplate.md を使用）
+8. 会社概要（press-release/formats/boilerplate.md を使用）
+9. 問い合わせ先（press-release/formats/boilerplate.md を使用）
 
 ## 各セクションの記述ルール
 

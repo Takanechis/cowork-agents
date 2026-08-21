@@ -80,12 +80,12 @@ updated: 2026-08
 
 | 種別 | 読み込むテンプレート |
 |---|---|
-| 資金調達 | skills/press-release/templates/funding.md |
-| 新機能リリース | skills/press-release/templates/new-feature.md |
-| 提携、協業 | skills/press-release/templates/partnership.md |
-| 受賞、認定 | skills/press-release/templates/award.md |
-| 新サービス | 未整備（skills/press-release/templates/new-service.md として追加予定） |
-| 採用、組織 | 未整備（skills/press-release/templates/hr.md として追加予定） |
+| 資金調達 | press-release/templates/funding.md |
+| 新機能リリース | press-release/templates/new-feature.md |
+| 提携、協業 | press-release/templates/partnership.md |
+| 受賞、認定 | press-release/templates/award.md |
+| 新サービス | 未整備（press-release/templates/new-service.md として追加予定） |
+| 採用、組織 | 未整備（press-release/templates/hr.md として追加予定） |
 
 該当するテンプレートが未整備の種別、および実績のマイルストーンのように上記に当てはまらない種別は、
 下記「構成テンプレート（共通）」に従い、内容の近いテンプレートの構成を準用する。
@@ -115,12 +115,12 @@ updated: 2026-08
 - 今後の展望：これから進めていく方向性
 
 コメントの発話者について、役職と氏名は「代表取締役CEO／畠中 翔一」の形式で表記する。
-役職者の正式表記は skills/shared/regulation-notation.md の役職者一覧を参照し、
+役職者の正式表記は shared/regulation-notation.md の役職者一覧を参照し、
 一覧にない人物名を発話者として置かない。
 
 ### 会社概要と問い合わせ先
 
-- skills/press-release/formats/boilerplate.md の定型フォーマットをそのまま使用する
+- press-release/formats/boilerplate.md の定型フォーマットをそのまま使用する
 
 ---
 
