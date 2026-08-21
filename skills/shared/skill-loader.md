@@ -35,40 +35,40 @@ updated: 2026-08
 
 | 担当エージェント | 読み込むファイル |
 |---|---|
-| カワセミ（企画） | skills/planning/owned-media-interview.md |
-| ハシボソカラス（ライティング） | skills/writing/owned-media-interview.md |
-| オオタカ（校正） | skills/proofreading/owned-media-interview.md |
-| シジュウカラ（最終レビュー） | skills/writing/owned-media-interview.md, skills/proofreading/owned-media-interview.md |
+| 企画担当（カワセミ） | skills/planning/owned-media-interview.md |
+| ライティング担当（ハシボソカラス） | skills/writing/owned-media-interview.md |
+| 校正担当（オオタカ） | skills/proofreading/owned-media-interview.md |
+| 最終レビュー担当（シジュウカラ） | skills/writing/owned-media-interview.md, skills/proofreading/owned-media-interview.md |
 | 全員共通 | skills/shared/regulation-notation.md |
 
 ### owned-media-dialogue（オウンドメディア 対談記事）
 
 | 担当エージェント | 読み込むファイル |
 |---|---|
-| カワセミ（企画） | skills/planning/owned-media-dialogue.md |
-| ハシボソカラス（ライティング） | skills/writing/owned-media-dialogue.md |
-| オオタカ（校正） | skills/proofreading/owned-media-dialogue.md |
-| シジュウカラ（最終レビュー） | skills/writing/owned-media-dialogue.md, skills/proofreading/owned-media-dialogue.md |
+| 企画担当（カワセミ） | skills/planning/owned-media-dialogue.md |
+| ライティング担当（ハシボソカラス） | skills/writing/owned-media-dialogue.md |
+| 校正担当（オオタカ） | skills/proofreading/owned-media-dialogue.md |
+| 最終レビュー担当（シジュウカラ） | skills/writing/owned-media-dialogue.md, skills/proofreading/owned-media-dialogue.md |
 | 全員共通 | skills/shared/regulation-notation.md |
 
 ### entry（語りおろし 入社エントリ）
 
 | 担当エージェント | 読み込むファイル |
 |---|---|
-| カワセミ（企画） | skills/planning/entry.md |
-| ハシボソカラス（ライティング） | skills/writing/entry.md |
-| オオタカ（校正） | skills/proofreading/entry.md |
-| シジュウカラ（最終レビュー） | skills/writing/entry.md, skills/proofreading/entry.md |
+| 企画担当（カワセミ） | skills/planning/entry.md |
+| ライティング担当（ハシボソカラス） | skills/writing/entry.md |
+| 校正担当（オオタカ） | skills/proofreading/entry.md |
+| 最終レビュー担当（シジュウカラ） | skills/writing/entry.md, skills/proofreading/entry.md |
 | 全員共通 | skills/shared/regulation-notation.md |
 
 ### press-release（プレスリリース）
 
 | 担当エージェント | 読み込むファイル |
 |---|---|
-| カワセミ（企画） | skills/planning/press-release.md |
-| ハシボソカラス（ライティング） | skills/writing/press-release.md |
-| オオタカ（校正） | skills/proofreading/press-release.md |
-| シジュウカラ（最終レビュー） | skills/writing/press-release.md, skills/proofreading/press-release.md |
+| 企画担当（カワセミ） | skills/planning/press-release.md |
+| ライティング担当（ハシボソカラス） | skills/writing/press-release.md |
+| 校正担当（オオタカ） | skills/proofreading/press-release.md |
+| 最終レビュー担当（シジュウカラ） | skills/writing/press-release.md, skills/proofreading/press-release.md |
 | 全員共通 | skills/shared/regulation-notation.md |
 
 ### owned-media-essay（オウンドメディア エッセイ記事）
@@ -86,9 +86,9 @@ updated: 2026-08
 
 | 担当エージェント | 読み込むファイル |
 |---|---|
-| ハシボソカラス（ライティング） | skills/writing/case-study-interview.md |
-| オオタカ（校正） | skills/proofreading/case-study-interview.md |
-| シジュウカラ（最終レビュー） | skills/writing/case-study-interview.md, skills/proofreading/case-study-interview.md |
+| ライティング担当（ハシボソカラス） | skills/writing/case-study-interview.md |
+| 校正担当（オオタカ） | skills/proofreading/case-study-interview.md |
+| 最終レビュー担当（シジュウカラ） | skills/writing/case-study-interview.md, skills/proofreading/case-study-interview.md |
 | 全員共通 | skills/shared/regulation-notation.md |
 
 ---
