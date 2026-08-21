@@ -12,7 +12,7 @@ updated: 2026-06
 
 ## Overview
 
-参照ライティングスキル: writing/owned-media-essay.md
+参照ライティングスキル: skills/writing/owned-media-essay.md
 目的: note 公開前の最終品質確認。表記、文体、構成、エッセイ固有ルールを多角的にチェックする
 対象: Standard Ver.（note向けエッセイ）。Tips Ver.（Zenn「やってみた」スタイル）の場合は末尾の追加チェックも適用する
 

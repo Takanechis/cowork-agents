@@ -72,14 +72,14 @@ model: opus
 
 ### スキルロード
 
-1. `shared/skill-loader.md` を Read する
+1. `skills/shared/skill-loader.md` を Read する
 2. 特定した記事種別に対応する writing スキルファイルを Read する
-3. `shared/regulation-notation.md` と `writing/japanese-style.md`（文体ルール）を Read する
+3. `skills/shared/regulation-notation.md` と `skills/writing/japanese-style.md`（文体ルール）を Read する
 4. 「読み込み完了: X件」を確認してから Step 1 へ進む
 
 ## 執筆原則：日本語の発想（英語翻訳調を根から断つ）
 
-英語は「誰がやったか（主体＝モノ）」を主語に立て、日本語は「何が起きたか（出来事＝コト）」を述べる。主体を無理に主語化せず、出来事に視点を置く。細かい文体ルールは writing/japanese-style.md を参照。
+英語は「誰がやったか（主体＝モノ）」を主語に立て、日本語は「何が起きたか（出来事＝コト）」を述べる。主体を無理に主語化せず、出来事に視点を置く。細かい文体ルールは skills/writing/japanese-style.md を参照。
 
 - モノ志向よりコト志向：×「彼女がミルクをこぼした」→○「ミルクがこぼれた」／×「私はあなたを理解する」→○「あなたのおっしゃることは理解できます」
 - 抽象名詞主語の他動詞構文を節に開く：×「一瞬の熟考があなたに誤りを示す」→○「少し考えれば、間違いだと分かる」

@@ -12,7 +12,7 @@ updated: 2026-08
 
 ## Overview
 
-参照ライティングスキル: writing/case-study-interview.md
+参照ライティングスキル: skills/writing/case-study-interview.md
 目的: 公開前の最終品質確認。表記・構成・成果の具体性を多角的にチェックする
 
 ---

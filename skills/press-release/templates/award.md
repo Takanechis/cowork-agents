@@ -11,7 +11,7 @@ updated: "2026-04"
 # 受賞・認定 構成テンプレート
 
 ニュース種別: 受賞・認定
-参照元: press-release/SKILL.md
+参照元: skills/press-release/SKILL.md
 
 ## セクション構成（この順序で生成すること）
 
@@ -20,8 +20,8 @@ updated: "2026-04"
 3. 受賞の背景・経緯
 4. 受賞理由・評価ポイント
 5. 代表者コメント
-6. 会社概要（press-release/formats/boilerplate.md を使用）
-7. 問い合わせ先（press-release/formats/boilerplate.md を使用）
+6. 会社概要（skills/press-release/formats/boilerplate.md を使用）
+7. 問い合わせ先（skills/press-release/formats/boilerplate.md を使用）
 
 ## 各セクションの記述ルール
 

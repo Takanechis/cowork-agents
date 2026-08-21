@@ -12,7 +12,7 @@ updated: 2026-08
 
 ## Overview
 
-参照ライティングスキル: writing/owned-media-dialogue.md
+参照ライティングスキル: skills/writing/owned-media-dialogue.md
 目的: 投稿前の最終品質確認。表記・構成・内容を多角的にチェックする
 
 ---

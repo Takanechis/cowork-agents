@@ -84,7 +84,7 @@ MD ファイルは単なる手順書ではなく、蓄積と進化のための�
 | リード文の固定表現 | 「警備会社向け一元管理システム」で固定する。「警備事業者向け」「オールインワンSaaS」等への言い換えは不可 |
 | サービスURL | https://service.keibi-force.com/ |
 | 事業内容の書き方 | 会社概要の事業内容欄では「警備会社向け一元管理システム「警備フォース」の開発・提供」と表記する |
-| 固定ブロック | 「警備フォースとは？」紹介と会社概要は press-release/formats/boilerplate.md「警備フォース固定ブロック」の固定文面を使用する |
+| 固定ブロック | 「警備フォースとは？」紹介と会社概要は skills/press-release/formats/boilerplate.md「警備フォース固定ブロック」の固定文面を使用する |
 
 #### medicalforce
 
@@ -186,11 +186,11 @@ MD ファイルは単なる手順書ではなく、蓄積と進化のための�
 
 ### 文章のリズムと句読点
 
-句読点を打つ位置と文章のリズムのルールは、正本を `writing/japanese-style.md` の
+句読点を打つ位置と文章のリズムのルールは、正本を `skills/writing/japanese-style.md` の
 「文章のリズムと読点」節に置く。本ファイルには重複して記載しない。
 
 原稿・企画書・レビューシートを書くエージェントは、本ファイルとあわせて
-`writing/japanese-style.md` を必ず Read すること。読点の総則、句点の打ち方、
+`skills/writing/japanese-style.md` を必ず Read すること。読点の総則、句点の打ち方、
 主語や「は」の直後の扱い、文の長短のつけ方はすべてそちらで定義する。
 
 同じルールを2ファイルで管理すると、片方だけが更新されて定義がずれる。
@@ -268,12 +268,14 @@ MD ファイルは単なる手順書ではなく、蓄積と進化のための�
 |---|---|
 | medicalforce | クリニック向けオールインワンSaaS。必ず小文字始まり・一単語で表記。「Medicalforce」「MedicalForce」「medical force」は誤り |
 | 警備フォース | 警備事業者向けオールインワンSaaS。カタカナ「フォース」を使用。「警備フォーズ」「警備force」は誤り |
-| medicalforce intelligence | medicalforce のAI機能群。全体を小文字で表記する。「medicalforce Intelligence」「medicalforce AI」「AI Workforce」は誤り |
+| medicalforce Intelligence | medicalforce のAI機能群。Intelligence は大文字始まりで表記する。「medicalforce intelligence」「medicalforce AI」「AI Workforce」は誤り |
 
 機能名の表記例: `medicalforce 予約システム`、`medicalforce 電子カルテシステム`、`medicalforce 決済システム`（半角スペースで区切る）
 
-AI機能群は「medicalforce intelligence」と全体を小文字で表記する。2026年8月3日配信のプレスリリースがこの表記であり、
-以後の原稿もこれに統一する。個別のAI機能は「AI音声カルテ」「AIカルテサマリ」「AIアフターフォロー」と表記する。
+AI機能群は「medicalforce Intelligence」と表記し、Intelligence を大文字始まりにする。
+個別のAI機能は「AI音声カルテ」「AIカルテサマリ」「AIアフターフォロー」と表記する。
+2026年8月3日配信のプレスリリースは「medicalforce intelligence」と小文字始まりで公開されている。
+過去のリリースを引用するときだけ原文の表記を保ち、新規の原稿では大文字始まりを使う。
 
 ---
 
@@ -361,7 +363,7 @@ AI機能群は「medicalforce intelligence」と全体を小文字で表記す�
 | トーンマナー / トーン&マナー / トーン＆マナー | トンマナ | 略称は「トンマナ」で統一 |
 | Medicalforce / MedicalForce / medical force | medicalforce | 小文字始まり・一単語が正式 |
 | バーチカルSaaS | バーティカルSaaS | カタカナ表記の統一 |
-| medicalforce Intelligence / medicalforce AI / AI Workforce | medicalforce intelligence | AI機能群は全体を小文字で表記する |
+| medicalforce intelligence / medicalforce AI / AI Workforce | medicalforce Intelligence | AI機能群は Intelligence を大文字始まりで表記する |
 | 畠中翔一（スペースなし） | 畠中 翔一 | 姓名の間に半角スペース |
 | 組田隆亮（スペースなし） | 組田 隆亮 | 姓名の間に半角スペース |
 | 羽富直輝（スペースなし） | 羽富 直輝 | 姓名の間に半角スペース |

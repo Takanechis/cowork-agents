@@ -1,5 +1,5 @@
 ---
-skill shared/personas
+skill skills/shared/personas
 version 1.0
 description ターゲットペルソナ定義ファイルの格納フォルダ。
 used_by manuscript-reviewer, press-release-reviewer, interview-reviewer

@@ -47,9 +47,9 @@ model: opus
 
 ## Step 0: スキルロード
 
-1. `shared/skill-loader.md` を Read する
+1. `skills/shared/skill-loader.md` を Read する
 2. owned-media-essay の行から読み込むファイルを取得する
-3. `planning/owned-media-essay.md`、`writing/owned-media-essay.md`、`shared/regulation-notation.md`、`writing/japanese-style.md` を Read する
+3. `skills/planning/owned-media-essay.md`、`skills/writing/owned-media-essay.md`、`skills/shared/regulation-notation.md`、`skills/writing/japanese-style.md` を Read する
 4. 「読み込み完了: X件」を確認してから Step 1 へ進む
 
 読み込み漏れがある場合は作業を開始しない。
@@ -82,7 +82,7 @@ planning スキルの出力フォーマットに従い、企画骨子を出力�
 
 ## Step 4: 執筆
 
-writing スキル（`writing/owned-media-essay.md`）の構成テンプレートに従い原稿を生成する。
+writing スキル（`skills/writing/owned-media-essay.md`）の構成テンプレートに従い原稿を生成する。
 Tips Ver. の場合はバリアント節のセクション順とコードブロックのルールを適用する。
 
 執筆時に守ることを次に挙げる。細かい文体ルールは writing スキルと japanese-style.md に従う。

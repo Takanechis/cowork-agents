@@ -12,7 +12,7 @@ updated: 2026-08
 
 ## Overview
 
-参照ライティングスキル: writing/press-release.md
+参照ライティングスキル: skills/writing/press-release.md
 目的: 配信前の最終品質確認。表記・構成・法的リスクをチェックする
 
 ---

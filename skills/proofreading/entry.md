@@ -12,7 +12,7 @@ updated: 2026-08
 
 ## Overview
 
-参照ライティングスキル: writing/entry.md
+参照ライティングスキル: skills/writing/entry.md
 目的: 公開前の最終品質確認。表記・構成・内容・コアバリューの正確性をチェックする
 
 ---

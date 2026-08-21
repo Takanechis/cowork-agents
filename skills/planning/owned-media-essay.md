@@ -106,7 +106,7 @@ Standard Ver. または Tips Ver. を明記する。Tips Ver. の場合は、記
 - テーマが3〜5個あり、各テーマに具体的な素材（数字、失敗、判断の経緯のいずれか）が紐づいている
 - 素材のないテーマが骨子に残っていない
 - バリアント（Standard Ver. または Tips Ver.）が明記されている
-- 禁止表現が0件（shared/regulation-notation.md）
+- 禁止表現が0件（skills/shared/regulation-notation.md）
 
 ---
 
