@@ -22,8 +22,8 @@ updated: "2026-04"
 5. 資金使途
 6. 代表者コメント
 7. 投資家コメント（あれば）
-8. 会社概要（formats/boilerplate.md を使用）
-9. 問い合わせ先（formats/boilerplate.md を使用）
+8. 会社概要（skills/press-release/formats/boilerplate.md を使用）
+9. 問い合わせ先（skills/press-release/formats/boilerplate.md を使用）
 
 ## 各セクションの記述ルール
 

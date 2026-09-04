@@ -21,8 +21,8 @@ updated: "2026-04"
 4. 提携内容の詳細
 5. 今後の展開・見込み効果
 6. 代表者コメント（両社あれば両方）
-7. 各社会社概要（formats/boilerplate.md + 相手先企業の概要）
-8. 問い合わせ先（formats/boilerplate.md を使用）
+7. 各社会社概要（skills/press-release/formats/boilerplate.md + 相手先企業の概要）
+8. 問い合わせ先（skills/press-release/formats/boilerplate.md を使用）
 
 ## 各セクションの記述ルール
 
@@ -66,6 +66,6 @@ updated: "2026-04"
 
 ### 各社会社概要
 
-- アトミックソフトウェアの会社概要は formats/boilerplate.md の定型フォーマットを使用する
+- アトミックソフトウェアの会社概要は skills/press-release/formats/boilerplate.md の定型フォーマットを使用する
 - 提携先企業の会社概要は入力情報をもとに同じフォーマットで作成する
 - 提携先企業の情報が不足している場合は [要確認] と明示する

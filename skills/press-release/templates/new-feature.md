@@ -22,8 +22,8 @@ updated: "2026-04"
 5. 導入効果
 6. 代表者コメント（任意）
 7. 提供開始時期・料金体系
-8. 会社概要（formats/boilerplate.md を使用）
-9. 問い合わせ先（formats/boilerplate.md を使用）
+8. 会社概要（skills/press-release/formats/boilerplate.md を使用）
+9. 問い合わせ先（skills/press-release/formats/boilerplate.md を使用）
 
 ## 各セクションの記述ルール
 
