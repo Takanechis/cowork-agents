@@ -44,6 +44,11 @@ manuscript-writer と manuscript-reviewer を自動連携するオーケスト�
 @web-builder (agents/ops/web-builder.md)
 Webサイト構築。corporate.v4の保守運用・新規ページ作成を担当する。
 
+### Slides（資料系）
+
+@aosagi (agents/slides/aosagi.md)
+提案資料のスライド作成担当。ペルソナ名「アオサギ」。起案資料か粗い素材を受け取り、判断を求めるスライドを Slides アーティファクトで作る。方法論は skills/proposal-slide/SKILL.md。
+
 ### Internal（社内向け）
 
 @communication-branding (agents/internal/communication-branding.md)
