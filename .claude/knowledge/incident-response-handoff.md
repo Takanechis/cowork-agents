@@ -91,6 +91,18 @@ Codex から 2026-10-26 に引き継いだ、広報起案「インシデント�
 
 修正後の PPTX と PDF は書き出しておらず、引き継ぎフォルダの `01_current_deck/` は 2026-10-26 版のまま。
 
+## 2026年10月27日午後の修正（v2 の取り込み）
+
+- 10月27日版の引き継ぎフォルダ `incident_response_claude_handoff_2026-10-27` が届いた。v2（PPTX、37枚）は v1 に S3 を足し、書式を直した版。
+- 高根さんの承認で、既存の Google Slides（同じリンク）に v2 の差分を移した。Google Slides は 37枚になった。
+- 変更点の一覧は `drafts/incident-response-v2-changes.md`、全文の書き出しは `drafts/incident-response-v2-fulltext.md`。
+  - 突き合わせと計画は `drafts/incident-response-v2-change-plan.md`。
+- 右上フローは工程名入りの7枠（幅 1.12in、間隔 0.07in、x=3.99in から）にし、右端を本文右端 12.25in にそろえた。v2 の 914pt のはみ出しは解消した。
+- 小さな橙の文字はスキル v1.1 に従い `#616565` か `#202222` に変えた。白丸の中の 18pt の番号は残した。
+- 提案スライド作成スキル v1.1 の正本は worktree `proposal-slide-agent-69f7fe` の `skills/proposal-slide/SKILL.md`。
+  - この worktree には無いので、絶対パスで Read する。
+- 引き継ぎフォルダの `reference_rules/regulation-notation.md` は main より新しい版で、「資料・ドキュメントのルール」「依頼者が言っていない約束を書かない」の節を含む。正本の所在は未確認。
+
 ## 運用上の注意
 
 - Google Slides を更新したら、PPTX と PDF を書き出し直し、引き継ぎフォルダの `01_current_deck/` を更新する。`MANIFEST.sha256` も再生成する。
