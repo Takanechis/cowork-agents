@@ -3,7 +3,7 @@
 提案日: 2026年10月27日
 出典: Codex からの引き継ぎフォルダ `incident_response_claude_handoff_2026-10-26` の制作指示書とフィードバックログ
 反映先: `skills/shared/regulation-notation.md`
-状態: 承認待ち。承認前にレギュレーションのファイルは編集しない。
+状態: 2026年10月27日に高根さんが承認。同日 `skills/shared/regulation-notation.md` の「提案資料と会議資料のルール」に反映済み。
 
 ## Why
 
