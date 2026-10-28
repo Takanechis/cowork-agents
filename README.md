@@ -254,6 +254,18 @@ corporate.v4（WordPress）の保守運用・新規ページ作成を担当し�
 
 ---
 
+### Slides — 資料系
+
+**@aosagi（提案スライド作成）**
+
+起案資料か粗い素材から、判断を求めるスライドを Slides アーティファクトで作ります。
+
+```
+@aosagi 提案スライドよろ drafts/proposal-ma-video.md を最終報告用に
+```
+
+---
+
 ### Internal — 社内向け
 
 **@communication-branding（デザインシステム）**
@@ -300,6 +312,12 @@ corporate.v4（WordPress）の保守運用・新規ページ作成を担当し�
 |---|---|
 | @contract-miner | Hubbleから契約書を解析しNotionにDB化 |
 | @web-builder | corporate.v4の保守運用・新規ページ作成 |
+
+### Slides（資料系）
+
+| エージェント | 用途 |
+|---|---|
+| @aosagi | 起案資料や素材から、判断を求める提案スライドを生成 |
 
 ### Internal（社内向け）
 
